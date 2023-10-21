@@ -32,4 +32,4 @@ dependencies of the new kernel.
 The following scripts will run sudo and ask you for your password:
 1_ndctl_prerequisites.sh installs the development environment for ndctl
 2_ndctl_build_install.sh downloads, builds, and installs ndctl
-3_kernel_6.5.sh installs the 6.5 kernel ans supporting packages
+3_kernel_6.5.sh installs the 6.5 kernel and supporting packages
