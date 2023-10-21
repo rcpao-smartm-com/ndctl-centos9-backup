@@ -33,3 +33,10 @@ The following scripts will run sudo and ask you for your password:
 1_ndctl_prerequisites.sh installs the development environment for ndctl
 2_ndctl_build_install.sh downloads, builds, and installs ndctl
 3_kernel_6.5.sh installs the 6.5 kernel and supporting packages
+
+
+[rcpao@co9-vb-bun ~]$ uname -a
+Linux co9-vb-bun 6.5.8-1.el9.elrepo.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Oct 19 20:09:10 EDT 2023 x86_64 x86_64 x86_64 GNU/Linux
+[rcpao@co9-vb-bun ~]$ ndctl --version
+78
+[rcpao@co9-vb-bun ~]$ 
