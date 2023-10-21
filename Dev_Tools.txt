@@ -1,0 +1,719 @@
+CentOS Stream 9 - BaseOS                        592 kB/s | 7.9 MB     00:13    
+CentOS Stream 9 - AppStream                     1.9 MB/s |  18 MB     00:09    
+CentOS Stream 9 - Extras packages                12 kB/s |  15 kB     00:01    
+Dependencies resolved.
+================================================================================
+ Package                         Arch   Version                 Repo       Size
+================================================================================
+Upgrading:
+ binutils                        x86_64 2.35.2-42.el9           baseos    4.6 M
+ cpp                             x86_64 11.4.1-2.3.el9          appstream  11 M
+ glibc                           x86_64 2.34-83.el9.7           baseos    1.9 M
+ glibc-all-langpacks             x86_64 2.34-83.el9.7           baseos     18 M
+ glibc-common                    x86_64 2.34-83.el9.7           baseos    317 k
+ glibc-gconv-extra               x86_64 2.34-83.el9.7           baseos    1.7 M
+ glibc-langpack-en               x86_64 2.34-83.el9.7           baseos    672 k
+ libgcc                          x86_64 11.4.1-2.3.el9          baseos     93 k
+ libgomp                         x86_64 11.4.1-2.3.el9          baseos    269 k
+ libstdc++                       x86_64 11.4.1-2.3.el9          baseos    739 k
+ python3-rpm                     x86_64 4.16.1.3-25.el9         baseos     66 k
+ rpm                             x86_64 4.16.1.3-25.el9         baseos    538 k
+ rpm-build-libs                  x86_64 4.16.1.3-25.el9         baseos     89 k
+ rpm-libs                        x86_64 4.16.1.3-25.el9         baseos    306 k
+ rpm-plugin-audit                x86_64 4.16.1.3-25.el9         baseos     17 k
+ rpm-plugin-selinux              x86_64 4.16.1.3-25.el9         baseos     17 k
+ rpm-plugin-systemd-inhibit      x86_64 4.16.1.3-25.el9         appstream  17 k
+ rpm-sign-libs                   x86_64 4.16.1.3-25.el9         baseos     21 k
+Installing group/module packages:
+ asciidoc                        noarch 9.1.0-3.el9             appstream 261 k
+ autoconf                        noarch 2.69-38.el9             appstream 681 k
+ automake                        noarch 1.16.2-8.el9            appstream 689 k
+ bison                           x86_64 3.7.4-5.el9             appstream 943 k
+ byacc                           x86_64 2.0.20210109-4.el9      appstream  89 k
+ diffstat                        x86_64 1.64-6.el9              appstream  44 k
+ flex                            x86_64 2.6.4-9.el9             appstream 313 k
+ gcc                             x86_64 11.4.1-2.3.el9          appstream  32 M
+ gcc-c++                         x86_64 11.4.1-2.3.el9          appstream  13 M
+ gdb                             x86_64 10.2-11.el9             appstream 122 k
+ git                             x86_64 2.39.3-1.el9            appstream  62 k
+ glibc-devel                     x86_64 2.34-83.el9.7           appstream  52 k
+ intltool                        noarch 0.51.0-20.el9           appstream  56 k
+ jna                             x86_64 5.6.0-8.el9             appstream 270 k
+ libtool                         x86_64 2.4.6-45.el9            appstream 582 k
+ ltrace                          x86_64 0.7.91-43.el9           appstream 138 k
+ make                            x86_64 1:4.3-7.el9             baseos    538 k
+ patchutils                      x86_64 0.4.2-7.el9             appstream 107 k
+ perl-Fedora-VSP                 noarch 0.001-23.el9            appstream  24 k
+ perl-generators                 noarch 1.11-12.el9             appstream  16 k
+ pesign                          x86_64 115-6.el9               appstream 175 k
+ redhat-rpm-config               noarch 206-1.el9               appstream  67 k
+ rpm-build                       x86_64 4.16.1.3-25.el9         appstream  67 k
+ rpm-sign                        x86_64 4.16.1.3-25.el9         baseos     19 k
+ source-highlight                x86_64 3.1.9-11.el9            appstream 681 k
+ systemtap                       x86_64 4.9-3.el9               appstream 5.7 k
+ valgrind                        x86_64 1:3.21.0-7.el9          appstream 4.9 M
+ valgrind-devel                  x86_64 1:3.21.0-7.el9          appstream  47 k
+Installing dependencies:
+ annobin                         x86_64 12.09-1.el9             appstream 978 k
+ boost-filesystem                x86_64 1.75.0-8.el9            appstream  58 k
+ boost-regex                     x86_64 1.75.0-8.el9            appstream 279 k
+ boost-system                    x86_64 1.75.0-8.el9            appstream  14 k
+ boost-thread                    x86_64 1.75.0-8.el9            appstream  56 k
+ copy-jdk-configs                noarch 4.0-3.el9               appstream  28 k
+ debugedit                       x86_64 5.0-4.el9               appstream  77 k
+ docbook-dtds                    noarch 1.0-79.el9              appstream 361 k
+ docbook-style-xsl               noarch 1.79.2-16.el9           appstream 1.6 M
+ dwz                             x86_64 0.14-3.el9              appstream 128 k
+ dyninst                         x86_64 12.1.0-1.el9            appstream 3.8 M
+ efi-srpm-macros                 noarch 4-9.el9                 appstream  23 k
+ elfutils                        x86_64 0.188-3.el9             baseos    529 k
+ elfutils-devel                  x86_64 0.188-3.el9             appstream  51 k
+ elfutils-libelf-devel           x86_64 0.188-3.el9             appstream  23 k
+ fonts-srpm-macros               noarch 1:2.0.5-7.el9.1         appstream  28 k
+ gcc-plugin-annobin              x86_64 11.4.1-2.3.el9          appstream  48 k
+ gdb-headless                    x86_64 10.2-11.el9             appstream 3.9 M
+ gettext-common-devel            noarch 0.21-7.el9              appstream 407 k
+ gettext-devel                   x86_64 0.21-7.el9              appstream 214 k
+ ghc-srpm-macros                 noarch 1.5.0-6.el9             appstream 8.8 k
+ git-core                        x86_64 2.39.3-1.el9            appstream 4.3 M
+ git-core-doc                    noarch 2.39.3-1.el9            appstream 2.9 M
+ glibc-headers                   x86_64 2.34-83.el9.7           appstream 554 k
+ go-srpm-macros                  noarch 3.2.0-3.el9             appstream  27 k
+ graphviz                        x86_64 2.44.0-25.el9           appstream 3.3 M
+ gtk2                            x86_64 2.24.33-8.el9           appstream 3.5 M
+ ibus-gtk2                       x86_64 1.5.25-2.el9            appstream  27 k
+ java-1.8.0-openjdk-headless     x86_64 1:1.8.0.362.b09-4.el9   appstream  32 M
+ javapackages-filesystem         noarch 6.0.0-4.el9             appstream  13 k
+ kernel-headers                  x86_64 5.14.0-375.el9          appstream 6.7 M
+ kernel-srpm-macros              noarch 1.0-13.el9              appstream  16 k
+ libXaw                          x86_64 1.0.13-19.el9           appstream 198 k
+ libbabeltrace                   x86_64 1.5.8-10.el9            appstream 190 k
+ libipt                          x86_64 2.0.4-3.el9             appstream  57 k
+ libstdc++-devel                 x86_64 11.4.1-2.3.el9          appstream 2.4 M
+ libxcrypt-devel                 x86_64 4.4.18-3.el9            appstream  29 k
+ libzstd-devel                   x86_64 1.5.1-2.el9             appstream  47 k
+ lksctp-tools                    x86_64 1.0.19-2.el9            baseos     94 k
+ lua                             x86_64 5.4.4-3.el9             appstream 188 k
+ lua-posix                       x86_64 35.0-8.el9              appstream 151 k
+ lua-srpm-macros                 noarch 1-6.el9                 appstream 9.5 k
+ m4                              x86_64 1.4.19-1.el9            appstream 300 k
+ mkfontscale                     x86_64 1.2.1-3.el9             appstream  32 k
+ nss-tools                       x86_64 3.79.0-14.el9           appstream 444 k
+ ocaml-srpm-macros               noarch 6-6.el9                 appstream 8.8 k
+ openblas-srpm-macros            noarch 2-11.el9                appstream 8.4 k
+ patch                           x86_64 2.7.6-16.el9            appstream 128 k
+ perl-Error                      noarch 1:0.17029-7.el9         appstream  42 k
+ perl-File-Compare               noarch 1.100.600-480.el9       appstream  14 k
+ perl-File-Copy                  noarch 2.34-480.el9            appstream  21 k
+ perl-Git                        noarch 2.39.3-1.el9            appstream  38 k
+ perl-TermReadKey                x86_64 2.38-11.el9             appstream  37 k
+ perl-Thread-Queue               noarch 3.14-460.el9            appstream  22 k
+ perl-XML-Parser                 x86_64 2.46-9.el9              appstream 236 k
+ perl-lib                        x86_64 0.65-480.el9            appstream  16 k
+ perl-macros                     noarch 4:5.32.1-480.el9        appstream  12 k
+ perl-srpm-macros                noarch 1-41.el9                appstream 9.1 k
+ perl-threads                    x86_64 1:2.25-460.el9          appstream  58 k
+ perl-threads-shared             x86_64 1.61-460.el9            appstream  45 k
+ pyproject-srpm-macros           noarch 1.9.0-1.el9             appstream  15 k
+ python-srpm-macros              noarch 3.9-52.el9              appstream  24 k
+ qt5-srpm-macros                 noarch 5.15.9-1.el9            appstream 8.8 k
+ rust-srpm-macros                noarch 17-4.el9                appstream  10 k
+ sgml-common                     noarch 0.6.3-58.el9            appstream  60 k
+ systemtap-client                x86_64 4.9-3.el9               appstream 4.1 M
+ systemtap-devel                 x86_64 4.9-3.el9               appstream 2.4 M
+ systemtap-runtime               x86_64 4.9-3.el9               appstream 462 k
+ tbb                             x86_64 2020.3-8.el9            appstream 171 k
+ tzdata-java                     noarch 2023c-1.el9             appstream 230 k
+ xorg-x11-fonts-ISO8859-1-100dpi noarch 7.5-33.el9              appstream 1.1 M
+ xz-devel                        x86_64 5.2.5-8.el9             appstream  55 k
+ zlib-devel                      x86_64 1.2.11-39.el9           appstream  45 k
+ zstd                            x86_64 1.5.1-2.el9             baseos    548 k
+Installing weak dependencies:
+ adwaita-gtk2-theme              x86_64 3.28-14.el9             appstream 213 k
+ libcanberra-gtk2                x86_64 0.30-26.el9             appstream  27 k
+ perl-version                    x86_64 7:0.99.28-4.el9         appstream  63 k
+Installing Groups:
+ Development Tools                                                             
+
+Transaction Summary
+================================================================================
+Install  105 Packages
+Upgrade   18 Packages
+
+Total download size: 176 M
+Downloading Packages:
+(1/123): lksctp-tools-1.0.19-2.el9.x86_64.rpm    72 kB/s |  94 kB     00:01    
+(2/123): make-4.3-7.el9.x86_64.rpm              353 kB/s | 538 kB     00:01    
+(3/123): rpm-sign-4.16.1.3-25.el9.x86_64.rpm     50 kB/s |  19 kB     00:00    
+(4/123): elfutils-0.188-3.el9.x86_64.rpm        260 kB/s | 529 kB     00:02    
+(5/123): zstd-1.5.1-2.el9.x86_64.rpm            752 kB/s | 548 kB     00:00    
+(6/123): adwaita-gtk2-theme-3.28-14.el9.x86_64. 152 kB/s | 213 kB     00:01    
+(7/123): asciidoc-9.1.0-3.el9.noarch.rpm        213 kB/s | 261 kB     00:01    
+(8/123): annobin-12.09-1.el9.x86_64.rpm         530 kB/s | 978 kB     00:01    
+(9/123): autoconf-2.69-38.el9.noarch.rpm        482 kB/s | 681 kB     00:01    
+(10/123): boost-filesystem-1.75.0-8.el9.x86_64. 117 kB/s |  58 kB     00:00    
+(11/123): bison-3.7.4-5.el9.x86_64.rpm          614 kB/s | 943 kB     00:01    
+(12/123): automake-1.16.2-8.el9.noarch.rpm      307 kB/s | 689 kB     00:02    
+(13/123): boost-system-1.75.0-8.el9.x86_64.rpm   29 kB/s |  14 kB     00:00    
+(14/123): boost-regex-1.75.0-8.el9.x86_64.rpm   266 kB/s | 279 kB     00:01    
+(15/123): boost-thread-1.75.0-8.el9.x86_64.rpm  117 kB/s |  56 kB     00:00    
+(16/123): byacc-2.0.20210109-4.el9.x86_64.rpm   182 kB/s |  89 kB     00:00    
+(17/123): copy-jdk-configs-4.0-3.el9.noarch.rpm  57 kB/s |  28 kB     00:00    
+(18/123): diffstat-1.64-6.el9.x86_64.rpm        137 kB/s |  44 kB     00:00    
+(19/123): debugedit-5.0-4.el9.x86_64.rpm        114 kB/s |  77 kB     00:00    
+(20/123): dwz-0.14-3.el9.x86_64.rpm             305 kB/s | 128 kB     00:00    
+(21/123): docbook-dtds-1.0-79.el9.noarch.rpm    330 kB/s | 361 kB     00:01    
+(22/123): efi-srpm-macros-4-9.el9.noarch.rpm     90 kB/s |  23 kB     00:00    
+(23/123): elfutils-devel-0.188-3.el9.x86_64.rpm 153 kB/s |  51 kB     00:00    
+(24/123): elfutils-libelf-devel-0.188-3.el9.x86  89 kB/s |  23 kB     00:00    
+(25/123): flex-2.6.4-9.el9.x86_64.rpm           394 kB/s | 313 kB     00:00    
+(26/123): fonts-srpm-macros-2.0.5-7.el9.1.noarc 110 kB/s |  28 kB     00:00    
+(27/123): docbook-style-xsl-1.79.2-16.el9.noarc 295 kB/s | 1.6 MB     00:05    
+(28/123): dyninst-12.1.0-1.el9.x86_64.rpm       419 kB/s | 3.8 MB     00:09    
+(29/123): gcc-plugin-annobin-11.4.1-2.3.el9.x86 135 kB/s |  48 kB     00:00    
+(30/123): gdb-10.2-11.el9.x86_64.rpm            316 kB/s | 122 kB     00:00    
+(31/123): gdb-headless-10.2-11.el9.x86_64.rpm   723 kB/s | 3.9 MB     00:05    
+(32/123): gettext-common-devel-0.21-7.el9.noarc 534 kB/s | 407 kB     00:00    
+(33/123): gettext-devel-0.21-7.el9.x86_64.rpm   421 kB/s | 214 kB     00:00    
+(34/123): ghc-srpm-macros-1.5.0-6.el9.noarch.rp  35 kB/s | 8.8 kB     00:00    
+(35/123): git-2.39.3-1.el9.x86_64.rpm           176 kB/s |  62 kB     00:00    
+(36/123): gcc-c++-11.4.1-2.3.el9.x86_64.rpm     670 kB/s |  13 MB     00:19    
+(37/123): git-core-2.39.3-1.el9.x86_64.rpm      540 kB/s | 4.3 MB     00:08    
+(38/123): glibc-devel-2.34-83.el9.7.x86_64.rpm  127 kB/s |  52 kB     00:00    
+(39/123): glibc-headers-2.34-83.el9.7.x86_64.rp 522 kB/s | 554 kB     00:01    
+(40/123): go-srpm-macros-3.2.0-3.el9.noarch.rpm  49 kB/s |  27 kB     00:00    
+(41/123): git-core-doc-2.39.3-1.el9.noarch.rpm  765 kB/s | 2.9 MB     00:03    
+(42/123): graphviz-2.44.0-25.el9.x86_64.rpm     517 kB/s | 3.3 MB     00:06    
+(43/123): ibus-gtk2-1.5.25-2.el9.x86_64.rpm      92 kB/s |  27 kB     00:00    
+(44/123): intltool-0.51.0-20.el9.noarch.rpm     164 kB/s |  56 kB     00:00    
+(45/123): gtk2-2.24.33-8.el9.x86_64.rpm         448 kB/s | 3.5 MB     00:08    
+(46/123): javapackages-filesystem-6.0.0-4.el9.n  15 kB/s |  13 kB     00:00    
+(47/123): jna-5.6.0-8.el9.x86_64.rpm            345 kB/s | 270 kB     00:00    
+(48/123): gcc-11.4.1-2.3.el9.x86_64.rpm         697 kB/s |  32 MB     00:47    
+(49/123): kernel-headers-5.14.0-375.el9.x86_64. 575 kB/s | 6.7 MB     00:11    
+(50/123): kernel-srpm-macros-1.0-13.el9.noarch.  25 kB/s |  16 kB     00:00    
+(51/123): libXaw-1.0.13-19.el9.x86_64.rpm       289 kB/s | 198 kB     00:00    
+(52/123): libbabeltrace-1.5.8-10.el9.x86_64.rpm 269 kB/s | 190 kB     00:00    
+(53/123): libcanberra-gtk2-0.30-26.el9.x86_64.r  80 kB/s |  27 kB     00:00    
+(54/123): libipt-2.0.4-3.el9.x86_64.rpm         183 kB/s |  57 kB     00:00    
+(55/123): libtool-2.4.6-45.el9.x86_64.rpm       507 kB/s | 582 kB     00:01    
+(56/123): libxcrypt-devel-4.4.18-3.el9.x86_64.r 125 kB/s |  29 kB     00:00    
+(57/123): libzstd-devel-1.5.1-2.el9.x86_64.rpm  196 kB/s |  47 kB     00:00    
+(58/123): ltrace-0.7.91-43.el9.x86_64.rpm       298 kB/s | 138 kB     00:00    
+(59/123): lua-5.4.4-3.el9.x86_64.rpm            134 kB/s | 188 kB     00:01    
+(60/123): libstdc++-devel-11.4.1-2.3.el9.x86_64 630 kB/s | 2.4 MB     00:03    
+(61/123): lua-srpm-macros-1-6.el9.noarch.rpm     38 kB/s | 9.5 kB     00:00    
+(62/123): lua-posix-35.0-8.el9.x86_64.rpm       221 kB/s | 151 kB     00:00    
+(63/123): mkfontscale-1.2.1-3.el9.x86_64.rpm    101 kB/s |  32 kB     00:00    
+(64/123): m4-1.4.19-1.el9.x86_64.rpm            344 kB/s | 300 kB     00:00    
+(65/123): ocaml-srpm-macros-6-6.el9.noarch.rpm   38 kB/s | 8.8 kB     00:00    
+(66/123): openblas-srpm-macros-2-11.el9.noarch.  38 kB/s | 8.4 kB     00:00    
+(67/123): patch-2.7.6-16.el9.x86_64.rpm         258 kB/s | 128 kB     00:00    
+(68/123): nss-tools-3.79.0-14.el9.x86_64.rpm    291 kB/s | 444 kB     00:01    
+(69/123): patchutils-0.4.2-7.el9.x86_64.rpm     151 kB/s | 107 kB     00:00    
+(70/123): perl-Error-0.17029-7.el9.noarch.rpm    61 kB/s |  42 kB     00:00    
+(71/123): perl-Fedora-VSP-0.001-23.el9.noarch.r  75 kB/s |  24 kB     00:00    
+(72/123): perl-File-Compare-1.100.600-480.el9.n  45 kB/s |  14 kB     00:00    
+(73/123): perl-File-Copy-2.34-480.el9.noarch.rp  64 kB/s |  21 kB     00:00    
+(74/123): perl-Git-2.39.3-1.el9.noarch.rpm       78 kB/s |  38 kB     00:00    
+(75/123): perl-TermReadKey-2.38-11.el9.x86_64.r  77 kB/s |  37 kB     00:00    
+(76/123): perl-Thread-Queue-3.14-460.el9.noarch  72 kB/s |  22 kB     00:00    
+(77/123): perl-generators-1.11-12.el9.noarch.rp  68 kB/s |  16 kB     00:00    
+(78/123): perl-XML-Parser-2.46-9.el9.x86_64.rpm 230 kB/s | 236 kB     00:01    
+(79/123): perl-lib-0.65-480.el9.x86_64.rpm       21 kB/s |  16 kB     00:00    
+(80/123): perl-macros-5.32.1-480.el9.noarch.rpm  40 kB/s |  12 kB     00:00    
+(81/123): perl-srpm-macros-1-41.el9.noarch.rpm   30 kB/s | 9.1 kB     00:00    
+(82/123): perl-threads-2.25-460.el9.x86_64.rpm  147 kB/s |  58 kB     00:00    
+(83/123): perl-threads-shared-1.61-460.el9.x86_ 106 kB/s |  45 kB     00:00    
+(84/123): perl-version-0.99.28-4.el9.x86_64.rpm 174 kB/s |  63 kB     00:00    
+(85/123): pyproject-srpm-macros-1.9.0-1.el9.noa  69 kB/s |  15 kB     00:00    
+(86/123): python-srpm-macros-3.9-52.el9.noarch. 102 kB/s |  24 kB     00:00    
+(87/123): qt5-srpm-macros-5.15.9-1.el9.noarch.r  38 kB/s | 8.8 kB     00:00    
+(88/123): pesign-115-6.el9.x86_64.rpm           157 kB/s | 175 kB     00:01    
+(89/123): redhat-rpm-config-206-1.el9.noarch.rp 165 kB/s |  67 kB     00:00    
+(90/123): rust-srpm-macros-17-4.el9.noarch.rpm   47 kB/s |  10 kB     00:00    
+(91/123): rpm-build-4.16.1.3-25.el9.x86_64.rpm  112 kB/s |  67 kB     00:00    
+(92/123): sgml-common-0.6.3-58.el9.noarch.rpm   161 kB/s |  60 kB     00:00    
+(93/123): systemtap-4.9-3.el9.x86_64.rpm         25 kB/s | 5.7 kB     00:00    
+(94/123): source-highlight-3.1.9-11.el9.x86_64. 232 kB/s | 681 kB     00:02    
+(95/123): systemtap-devel-4.9-3.el9.x86_64.rpm  526 kB/s | 2.4 MB     00:04    
+(96/123): systemtap-client-4.9-3.el9.x86_64.rpm 529 kB/s | 4.1 MB     00:07    
+(97/123): systemtap-runtime-4.9-3.el9.x86_64.rp 498 kB/s | 462 kB     00:00    
+(98/123): tbb-2020.3-8.el9.x86_64.rpm           337 kB/s | 171 kB     00:00    
+(99/123): tzdata-java-2023c-1.el9.noarch.rpm    463 kB/s | 230 kB     00:00    
+(100/123): valgrind-devel-3.21.0-7.el9.x86_64.r 129 kB/s |  47 kB     00:00    
+(101/123): xorg-x11-fonts-ISO8859-1-100dpi-7.5- 364 kB/s | 1.1 MB     00:03    
+(102/123): xz-devel-5.2.5-8.el9.x86_64.rpm      143 kB/s |  55 kB     00:00    
+(103/123): zlib-devel-1.2.11-39.el9.x86_64.rpm  147 kB/s |  45 kB     00:00    
+(104/123): binutils-2.35.2-42.el9.x86_64.rpm    1.0 MB/s | 4.6 MB     00:04    
+(105/123): valgrind-3.21.0-7.el9.x86_64.rpm     424 kB/s | 4.9 MB     00:11    
+(106/123): glibc-2.34-83.el9.7.x86_64.rpm       614 kB/s | 1.9 MB     00:03    
+(107/123): glibc-common-2.34-83.el9.7.x86_64.rp 435 kB/s | 317 kB     00:00    
+(108/123): glibc-gconv-extra-2.34-83.el9.7.x86_ 898 kB/s | 1.7 MB     00:01    
+(109/123): glibc-langpack-en-2.34-83.el9.7.x86_ 516 kB/s | 672 kB     00:01    
+(110/123): libgcc-11.4.1-2.3.el9.x86_64.rpm     184 kB/s |  93 kB     00:00    
+(111/123): java-1.8.0-openjdk-headless-1.8.0.36 609 kB/s |  32 MB     00:54    
+(112/123): libgomp-11.4.1-2.3.el9.x86_64.rpm    206 kB/s | 269 kB     00:01    
+(113/123): python3-rpm-4.16.1.3-25.el9.x86_64.r 171 kB/s |  66 kB     00:00    
+(114/123): libstdc++-11.4.1-2.3.el9.x86_64.rpm  571 kB/s | 739 kB     00:01    
+(115/123): rpm-build-libs-4.16.1.3-25.el9.x86_6 325 kB/s |  89 kB     00:00    
+(116/123): rpm-4.16.1.3-25.el9.x86_64.rpm       353 kB/s | 538 kB     00:01    
+(117/123): rpm-libs-4.16.1.3-25.el9.x86_64.rpm  408 kB/s | 306 kB     00:00    
+(118/123): rpm-plugin-audit-4.16.1.3-25.el9.x86  48 kB/s |  17 kB     00:00    
+(119/123): rpm-plugin-selinux-4.16.1.3-25.el9.x  50 kB/s |  17 kB     00:00    
+(120/123): rpm-sign-libs-4.16.1.3-25.el9.x86_64  62 kB/s |  21 kB     00:00    
+(121/123): rpm-plugin-systemd-inhibit-4.16.1.3-  53 kB/s |  17 kB     00:00    
+(122/123): glibc-all-langpacks-2.34-83.el9.7.x8 893 kB/s |  18 MB     00:20    
+(123/123): cpp-11.4.1-2.3.el9.x86_64.rpm        856 kB/s |  11 MB     00:12    
+--------------------------------------------------------------------------------
+Total                                           1.6 MB/s | 176 MB     01:52     
+CentOS Stream 9 - BaseOS                        190 kB/s | 1.6 kB     00:00    
+Key imported successfully
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Running scriptlet: copy-jdk-configs-4.0-3.el9.noarch                      1/1 
+  Running scriptlet: java-1.8.0-openjdk-headless-1:1.8.0.362.b09-4.el9.x8   1/1 
+  Preparing        :                                                        1/1 
+  Upgrading        : libgcc-11.4.1-2.3.el9.x86_64                         1/141 
+  Running scriptlet: libgcc-11.4.1-2.3.el9.x86_64                         1/141 
+  Upgrading        : glibc-all-langpacks-2.34-83.el9.7.x86_64             2/141 
+  Upgrading        : glibc-common-2.34-83.el9.7.x86_64                    3/141 
+  Upgrading        : glibc-gconv-extra-2.34-83.el9.7.x86_64               4/141 
+  Running scriptlet: glibc-gconv-extra-2.34-83.el9.7.x86_64               4/141 
+  Upgrading        : glibc-langpack-en-2.34-83.el9.7.x86_64               5/141 
+  Running scriptlet: glibc-2.34-83.el9.7.x86_64                           6/141 
+  Upgrading        : glibc-2.34-83.el9.7.x86_64                           6/141 
+  Running scriptlet: glibc-2.34-83.el9.7.x86_64                           6/141 
+  Upgrading        : libstdc++-11.4.1-2.3.el9.x86_64                      7/141 
+  Upgrading        : rpm-4.16.1.3-25.el9.x86_64                           8/141 
+  Upgrading        : rpm-libs-4.16.1.3-25.el9.x86_64                      9/141 
+  Installing       : boost-system-1.75.0-8.el9.x86_64                    10/141 
+  Upgrading        : binutils-2.35.2-42.el9.x86_64                       11/141 
+  Running scriptlet: binutils-2.35.2-42.el9.x86_64                       11/141 
+  Installing       : m4-1.4.19-1.el9.x86_64                              12/141 
+  Installing       : patch-2.7.6-16.el9.x86_64                           13/141 
+  Upgrading        : libgomp-11.4.1-2.3.el9.x86_64                       14/141 
+  Installing       : perl-File-Copy-2.34-480.el9.noarch                  15/141 
+  Upgrading        : rpm-build-libs-4.16.1.3-25.el9.x86_64               16/141 
+  Upgrading        : rpm-sign-libs-4.16.1.3-25.el9.x86_64                17/141 
+  Installing       : elfutils-0.188-3.el9.x86_64                         18/141 
+  Installing       : make-1:4.3-7.el9.x86_64                             19/141 
+  Installing       : dwz-0.14-3.el9.x86_64                               20/141 
+  Installing       : git-core-2.39.3-1.el9.x86_64                        21/141 
+  Installing       : perl-threads-1:2.25-460.el9.x86_64                  22/141 
+  Installing       : zlib-devel-1.2.11-39.el9.x86_64                     23/141 
+  Installing       : perl-File-Compare-1.100.600-480.el9.noarch          24/141 
+  Installing       : autoconf-2.69-38.el9.noarch                         25/141 
+  Installing       : javapackages-filesystem-6.0.0-4.el9.noarch          26/141 
+  Installing       : elfutils-libelf-devel-0.188-3.el9.x86_64            27/141 
+  Installing       : perl-threads-shared-1.61-460.el9.x86_64             28/141 
+  Installing       : perl-Thread-Queue-3.14-460.el9.noarch               29/141 
+  Installing       : automake-1.16.2-8.el9.noarch                        30/141 
+  Installing       : git-core-doc-2.39.3-1.el9.noarch                    31/141 
+  Installing       : boost-filesystem-1.75.0-8.el9.x86_64                32/141 
+  Installing       : boost-thread-1.75.0-8.el9.x86_64                    33/141 
+  Installing       : efi-srpm-macros-4-9.el9.noarch                      34/141 
+  Installing       : lua-srpm-macros-1-6.el9.noarch                      35/141 
+  Installing       : zstd-1.5.1-2.el9.x86_64                             36/141 
+  Installing       : boost-regex-1.75.0-8.el9.x86_64                     37/141 
+  Installing       : source-highlight-3.1.9-11.el9.x86_64                38/141 
+  Installing       : libstdc++-devel-11.4.1-2.3.el9.x86_64               39/141 
+  Installing       : tbb-2020.3-8.el9.x86_64                             40/141 
+  Installing       : dyninst-12.1.0-1.el9.x86_64                         41/141 
+  Running scriptlet: dyninst-12.1.0-1.el9.x86_64                         41/141 
+  Running scriptlet: systemtap-runtime-4.9-3.el9.x86_64                  42/141 
+Creating group 'stapusr' with GID 156.
+Creating group 'stapsys' with GID 157.
+Creating group 'stapdev' with GID 158.
+
+  Installing       : systemtap-runtime-4.9-3.el9.x86_64                  42/141 
+  Installing       : systemtap-client-4.9-3.el9.x86_64                   43/141 
+  Installing       : lksctp-tools-1.0.19-2.el9.x86_64                    44/141 
+  Installing       : ibus-gtk2-1.5.25-2.el9.x86_64                       45/141 
+  Installing       : libcanberra-gtk2-0.30-26.el9.x86_64                 46/141 
+  Installing       : gtk2-2.24.33-8.el9.x86_64                           47/141 
+  Installing       : adwaita-gtk2-theme-3.28-14.el9.x86_64               48/141 
+  Installing       : glibc-headers-2.34-83.el9.7.x86_64                  49/141 
+  Installing       : libXaw-1.0.13-19.el9.x86_64                         50/141 
+  Installing       : libbabeltrace-1.5.8-10.el9.x86_64                   51/141 
+  Installing       : libipt-2.0.4-3.el9.x86_64                           52/141 
+  Installing       : gdb-headless-10.2-11.el9.x86_64                     53/141 
+  Installing       : debugedit-5.0-4.el9.x86_64                          54/141 
+  Installing       : lua-5.4.4-3.el9.x86_64                              55/141 
+  Installing       : lua-posix-35.0-8.el9.x86_64                         56/141 
+  Installing       : copy-jdk-configs-4.0-3.el9.noarch                   57/141 
+  Installing       : mkfontscale-1.2.1-3.el9.x86_64                      58/141 
+  Installing       : xorg-x11-fonts-ISO8859-1-100dpi-7.5-33.el9.noarc    59/141 
+  Running scriptlet: xorg-x11-fonts-ISO8859-1-100dpi-7.5-33.el9.noarc    59/141 
+  Installing       : graphviz-2.44.0-25.el9.x86_64                       60/141 
+  Running scriptlet: graphviz-2.44.0-25.el9.x86_64                       60/141 
+  Installing       : nss-tools-3.79.0-14.el9.x86_64                      61/141 
+  Installing       : perl-TermReadKey-2.38-11.el9.x86_64                 62/141 
+  Installing       : perl-XML-Parser-2.46-9.el9.x86_64                   63/141 
+  Installing       : perl-version-7:0.99.28-4.el9.x86_64                 64/141 
+  Installing       : valgrind-1:3.21.0-7.el9.x86_64                      65/141 
+  Upgrading        : cpp-11.4.1-2.3.el9.x86_64                           66/141 
+  Installing       : xz-devel-5.2.5-8.el9.x86_64                         67/141 
+  Installing       : tzdata-java-2023c-1.el9.noarch                      68/141 
+  Installing       : java-1.8.0-openjdk-headless-1:1.8.0.362.b09-4.el    69/141 
+  Running scriptlet: java-1.8.0-openjdk-headless-1:1.8.0.362.b09-4.el    69/141 
+  Installing       : sgml-common-0.6.3-58.el9.noarch                     70/141 
+  Installing       : docbook-dtds-1.0-79.el9.noarch                      71/141 
+  Running scriptlet: docbook-dtds-1.0-79.el9.noarch                      71/141 
+  Installing       : docbook-style-xsl-1.79.2-16.el9.noarch              72/141 
+  Running scriptlet: docbook-style-xsl-1.79.2-16.el9.noarch              72/141 
+  Installing       : rust-srpm-macros-17-4.el9.noarch                    73/141 
+  Installing       : qt5-srpm-macros-5.15.9-1.el9.noarch                 74/141 
+  Installing       : pyproject-srpm-macros-1.9.0-1.el9.noarch            75/141 
+  Installing       : perl-srpm-macros-1-41.el9.noarch                    76/141 
+  Installing       : perl-macros-4:5.32.1-480.el9.noarch                 77/141 
+  Installing       : perl-lib-0.65-480.el9.x86_64                        78/141 
+  Installing       : perl-Fedora-VSP-0.001-23.el9.noarch                 79/141 
+  Installing       : perl-Error-1:0.17029-7.el9.noarch                   80/141 
+  Installing       : perl-Git-2.39.3-1.el9.noarch                        81/141 
+  Installing       : git-2.39.3-1.el9.x86_64                             82/141 
+  Installing       : openblas-srpm-macros-2-11.el9.noarch                83/141 
+  Installing       : ocaml-srpm-macros-6-6.el9.noarch                    84/141 
+  Installing       : libzstd-devel-1.5.1-2.el9.x86_64                    85/141 
+  Installing       : elfutils-devel-0.188-3.el9.x86_64                   86/141 
+  Installing       : kernel-srpm-macros-1.0-13.el9.noarch                87/141 
+  Installing       : kernel-headers-5.14.0-375.el9.x86_64                88/141 
+  Installing       : libxcrypt-devel-4.4.18-3.el9.x86_64                 89/141 
+  Installing       : glibc-devel-2.34-83.el9.7.x86_64                    90/141 
+  Installing       : gcc-11.4.1-2.3.el9.x86_64                           91/141 
+  Installing       : annobin-12.09-1.el9.x86_64                          92/141 
+  Installing       : gcc-plugin-annobin-11.4.1-2.3.el9.x86_64            93/141 
+  Installing       : systemtap-devel-4.9-3.el9.x86_64                    94/141 
+  Installing       : ghc-srpm-macros-1.5.0-6.el9.noarch                  95/141 
+  Installing       : fonts-srpm-macros-1:2.0.5-7.el9.1.noarch            96/141 
+  Installing       : go-srpm-macros-3.2.0-3.el9.noarch                   97/141 
+  Installing       : python-srpm-macros-3.9-52.el9.noarch                98/141 
+  Installing       : redhat-rpm-config-206-1.el9.noarch                  99/141 
+  Running scriptlet: redhat-rpm-config-206-1.el9.noarch                  99/141 
+  Installing       : gettext-common-devel-0.21-7.el9.noarch             100/141 
+  Installing       : gettext-devel-0.21-7.el9.x86_64                    101/141 
+  Installing       : intltool-0.51.0-20.el9.noarch                      102/141 
+  Installing       : rpm-build-4.16.1.3-25.el9.x86_64                   103/141 
+  Installing       : systemtap-4.9-3.el9.x86_64                         104/141 
+  Running scriptlet: systemtap-4.9-3.el9.x86_64                         104/141 
+  Installing       : gcc-c++-11.4.1-2.3.el9.x86_64                      105/141 
+  Installing       : libtool-2.4.6-45.el9.x86_64                        106/141 
+  Installing       : perl-generators-1.11-12.el9.noarch                 107/141 
+  Installing       : asciidoc-9.1.0-3.el9.noarch                        108/141 
+  Installing       : jna-5.6.0-8.el9.x86_64                             109/141 
+  Installing       : valgrind-devel-1:3.21.0-7.el9.x86_64               110/141 
+  Running scriptlet: pesign-115-6.el9.x86_64                            111/141 
+  Installing       : pesign-115-6.el9.x86_64                            111/141 
+  Running scriptlet: pesign-115-6.el9.x86_64                            111/141 
+  Installing       : gdb-10.2-11.el9.x86_64                             112/141 
+  Installing       : rpm-sign-4.16.1.3-25.el9.x86_64                    113/141 
+  Upgrading        : python3-rpm-4.16.1.3-25.el9.x86_64                 114/141 
+  Installing       : patchutils-0.4.2-7.el9.x86_64                      115/141 
+  Installing       : bison-3.7.4-5.el9.x86_64                           116/141 
+  Installing       : flex-2.6.4-9.el9.x86_64                            117/141 
+  Upgrading        : rpm-plugin-audit-4.16.1.3-25.el9.x86_64            118/141 
+  Upgrading        : rpm-plugin-selinux-4.16.1.3-25.el9.x86_64          119/141 
+  Upgrading        : rpm-plugin-systemd-inhibit-4.16.1.3-25.el9.x86_6   120/141 
+  Installing       : ltrace-0.7.91-43.el9.x86_64                        121/141 
+  Installing       : byacc-2.0.20210109-4.el9.x86_64                    122/141 
+  Installing       : diffstat-1.64-6.el9.x86_64                         123/141 
+  Running scriptlet: binutils-2.35.2-37.el9.x86_64                      124/141 
+  Cleanup          : binutils-2.35.2-37.el9.x86_64                      124/141 
+  Running scriptlet: binutils-2.35.2-37.el9.x86_64                      124/141 
+  Cleanup          : libstdc++-11.3.1-4.3.el9.x86_64                    125/141 
+  Cleanup          : cpp-11.3.1-4.3.el9.x86_64                          126/141 
+  Cleanup          : python3-rpm-4.16.1.3-22.el9.x86_64                 127/141 
+  Cleanup          : rpm-build-libs-4.16.1.3-22.el9.x86_64              128/141 
+  Cleanup          : rpm-sign-libs-4.16.1.3-22.el9.x86_64               129/141 
+  Cleanup          : libgomp-11.3.1-4.3.el9.x86_64                      130/141 
+  Cleanup          : rpm-plugin-systemd-inhibit-4.16.1.3-22.el9.x86_6   131/141 
+  Cleanup          : rpm-plugin-selinux-4.16.1.3-22.el9.x86_64          132/141 
+  Cleanup          : rpm-plugin-audit-4.16.1.3-22.el9.x86_64            133/141 
+  Cleanup          : rpm-4.16.1.3-22.el9.x86_64                         134/141 
+  Cleanup          : rpm-libs-4.16.1.3-22.el9.x86_64                    135/141 
+  Cleanup          : glibc-all-langpacks-2.34-60.el9.x86_64             136/141 
+  Cleanup          : glibc-gconv-extra-2.34-60.el9.x86_64               137/141 
+  Running scriptlet: glibc-gconv-extra-2.34-60.el9.x86_64               137/141 
+  Cleanup          : glibc-common-2.34-60.el9.x86_64                    138/141 
+  Cleanup          : glibc-langpack-en-2.34-60.el9.x86_64               139/141 
+  Cleanup          : glibc-2.34-60.el9.x86_64                           140/141 
+  Cleanup          : libgcc-11.3.1-4.3.el9.x86_64                       141/141 
+  Running scriptlet: libgcc-11.3.1-4.3.el9.x86_64                       141/141 
+  Running scriptlet: glibc-all-langpacks-2.34-83.el9.7.x86_64           141/141 
+  Running scriptlet: rpm-4.16.1.3-25.el9.x86_64                         141/141 
+  Running scriptlet: copy-jdk-configs-4.0-3.el9.noarch                  141/141 
+  Running scriptlet: java-1.8.0-openjdk-headless-1:1.8.0.362.b09-4.el   141/141 
+  Running scriptlet: pesign-115-6.el9.x86_64                            141/141 
+  Running scriptlet: libgcc-11.3.1-4.3.el9.x86_64                       141/141 
+  Verifying        : elfutils-0.188-3.el9.x86_64                          1/141 
+  Verifying        : lksctp-tools-1.0.19-2.el9.x86_64                     2/141 
+  Verifying        : make-1:4.3-7.el9.x86_64                              3/141 
+  Verifying        : rpm-sign-4.16.1.3-25.el9.x86_64                      4/141 
+  Verifying        : zstd-1.5.1-2.el9.x86_64                              5/141 
+  Verifying        : adwaita-gtk2-theme-3.28-14.el9.x86_64                6/141 
+  Verifying        : annobin-12.09-1.el9.x86_64                           7/141 
+  Verifying        : asciidoc-9.1.0-3.el9.noarch                          8/141 
+  Verifying        : autoconf-2.69-38.el9.noarch                          9/141 
+  Verifying        : automake-1.16.2-8.el9.noarch                        10/141 
+  Verifying        : bison-3.7.4-5.el9.x86_64                            11/141 
+  Verifying        : boost-filesystem-1.75.0-8.el9.x86_64                12/141 
+  Verifying        : boost-regex-1.75.0-8.el9.x86_64                     13/141 
+  Verifying        : boost-system-1.75.0-8.el9.x86_64                    14/141 
+  Verifying        : boost-thread-1.75.0-8.el9.x86_64                    15/141 
+  Verifying        : byacc-2.0.20210109-4.el9.x86_64                     16/141 
+  Verifying        : copy-jdk-configs-4.0-3.el9.noarch                   17/141 
+  Verifying        : debugedit-5.0-4.el9.x86_64                          18/141 
+  Verifying        : diffstat-1.64-6.el9.x86_64                          19/141 
+  Verifying        : docbook-dtds-1.0-79.el9.noarch                      20/141 
+  Verifying        : docbook-style-xsl-1.79.2-16.el9.noarch              21/141 
+  Verifying        : dwz-0.14-3.el9.x86_64                               22/141 
+  Verifying        : dyninst-12.1.0-1.el9.x86_64                         23/141 
+  Verifying        : efi-srpm-macros-4-9.el9.noarch                      24/141 
+  Verifying        : elfutils-devel-0.188-3.el9.x86_64                   25/141 
+  Verifying        : elfutils-libelf-devel-0.188-3.el9.x86_64            26/141 
+  Verifying        : flex-2.6.4-9.el9.x86_64                             27/141 
+  Verifying        : fonts-srpm-macros-1:2.0.5-7.el9.1.noarch            28/141 
+  Verifying        : gcc-11.4.1-2.3.el9.x86_64                           29/141 
+  Verifying        : gcc-c++-11.4.1-2.3.el9.x86_64                       30/141 
+  Verifying        : gcc-plugin-annobin-11.4.1-2.3.el9.x86_64            31/141 
+  Verifying        : gdb-10.2-11.el9.x86_64                              32/141 
+  Verifying        : gdb-headless-10.2-11.el9.x86_64                     33/141 
+  Verifying        : gettext-common-devel-0.21-7.el9.noarch              34/141 
+  Verifying        : gettext-devel-0.21-7.el9.x86_64                     35/141 
+  Verifying        : ghc-srpm-macros-1.5.0-6.el9.noarch                  36/141 
+  Verifying        : git-2.39.3-1.el9.x86_64                             37/141 
+  Verifying        : git-core-2.39.3-1.el9.x86_64                        38/141 
+  Verifying        : git-core-doc-2.39.3-1.el9.noarch                    39/141 
+  Verifying        : glibc-devel-2.34-83.el9.7.x86_64                    40/141 
+  Verifying        : glibc-headers-2.34-83.el9.7.x86_64                  41/141 
+  Verifying        : go-srpm-macros-3.2.0-3.el9.noarch                   42/141 
+  Verifying        : graphviz-2.44.0-25.el9.x86_64                       43/141 
+  Verifying        : gtk2-2.24.33-8.el9.x86_64                           44/141 
+  Verifying        : ibus-gtk2-1.5.25-2.el9.x86_64                       45/141 
+  Verifying        : intltool-0.51.0-20.el9.noarch                       46/141 
+  Verifying        : java-1.8.0-openjdk-headless-1:1.8.0.362.b09-4.el    47/141 
+  Verifying        : javapackages-filesystem-6.0.0-4.el9.noarch          48/141 
+  Verifying        : jna-5.6.0-8.el9.x86_64                              49/141 
+  Verifying        : kernel-headers-5.14.0-375.el9.x86_64                50/141 
+  Verifying        : kernel-srpm-macros-1.0-13.el9.noarch                51/141 
+  Verifying        : libXaw-1.0.13-19.el9.x86_64                         52/141 
+  Verifying        : libbabeltrace-1.5.8-10.el9.x86_64                   53/141 
+  Verifying        : libcanberra-gtk2-0.30-26.el9.x86_64                 54/141 
+  Verifying        : libipt-2.0.4-3.el9.x86_64                           55/141 
+  Verifying        : libstdc++-devel-11.4.1-2.3.el9.x86_64               56/141 
+  Verifying        : libtool-2.4.6-45.el9.x86_64                         57/141 
+  Verifying        : libxcrypt-devel-4.4.18-3.el9.x86_64                 58/141 
+  Verifying        : libzstd-devel-1.5.1-2.el9.x86_64                    59/141 
+  Verifying        : ltrace-0.7.91-43.el9.x86_64                         60/141 
+  Verifying        : lua-5.4.4-3.el9.x86_64                              61/141 
+  Verifying        : lua-posix-35.0-8.el9.x86_64                         62/141 
+  Verifying        : lua-srpm-macros-1-6.el9.noarch                      63/141 
+  Verifying        : m4-1.4.19-1.el9.x86_64                              64/141 
+  Verifying        : mkfontscale-1.2.1-3.el9.x86_64                      65/141 
+  Verifying        : nss-tools-3.79.0-14.el9.x86_64                      66/141 
+  Verifying        : ocaml-srpm-macros-6-6.el9.noarch                    67/141 
+  Verifying        : openblas-srpm-macros-2-11.el9.noarch                68/141 
+  Verifying        : patch-2.7.6-16.el9.x86_64                           69/141 
+  Verifying        : patchutils-0.4.2-7.el9.x86_64                       70/141 
+  Verifying        : perl-Error-1:0.17029-7.el9.noarch                   71/141 
+  Verifying        : perl-Fedora-VSP-0.001-23.el9.noarch                 72/141 
+  Verifying        : perl-File-Compare-1.100.600-480.el9.noarch          73/141 
+  Verifying        : perl-File-Copy-2.34-480.el9.noarch                  74/141 
+  Verifying        : perl-Git-2.39.3-1.el9.noarch                        75/141 
+  Verifying        : perl-TermReadKey-2.38-11.el9.x86_64                 76/141 
+  Verifying        : perl-Thread-Queue-3.14-460.el9.noarch               77/141 
+  Verifying        : perl-XML-Parser-2.46-9.el9.x86_64                   78/141 
+  Verifying        : perl-generators-1.11-12.el9.noarch                  79/141 
+  Verifying        : perl-lib-0.65-480.el9.x86_64                        80/141 
+  Verifying        : perl-macros-4:5.32.1-480.el9.noarch                 81/141 
+  Verifying        : perl-srpm-macros-1-41.el9.noarch                    82/141 
+  Verifying        : perl-threads-1:2.25-460.el9.x86_64                  83/141 
+  Verifying        : perl-threads-shared-1.61-460.el9.x86_64             84/141 
+  Verifying        : perl-version-7:0.99.28-4.el9.x86_64                 85/141 
+  Verifying        : pesign-115-6.el9.x86_64                             86/141 
+  Verifying        : pyproject-srpm-macros-1.9.0-1.el9.noarch            87/141 
+  Verifying        : python-srpm-macros-3.9-52.el9.noarch                88/141 
+  Verifying        : qt5-srpm-macros-5.15.9-1.el9.noarch                 89/141 
+  Verifying        : redhat-rpm-config-206-1.el9.noarch                  90/141 
+  Verifying        : rpm-build-4.16.1.3-25.el9.x86_64                    91/141 
+  Verifying        : rust-srpm-macros-17-4.el9.noarch                    92/141 
+  Verifying        : sgml-common-0.6.3-58.el9.noarch                     93/141 
+  Verifying        : source-highlight-3.1.9-11.el9.x86_64                94/141 
+  Verifying        : systemtap-4.9-3.el9.x86_64                          95/141 
+  Verifying        : systemtap-client-4.9-3.el9.x86_64                   96/141 
+  Verifying        : systemtap-devel-4.9-3.el9.x86_64                    97/141 
+  Verifying        : systemtap-runtime-4.9-3.el9.x86_64                  98/141 
+  Verifying        : tbb-2020.3-8.el9.x86_64                             99/141 
+  Verifying        : tzdata-java-2023c-1.el9.noarch                     100/141 
+  Verifying        : valgrind-1:3.21.0-7.el9.x86_64                     101/141 
+  Verifying        : valgrind-devel-1:3.21.0-7.el9.x86_64               102/141 
+  Verifying        : xorg-x11-fonts-ISO8859-1-100dpi-7.5-33.el9.noarc   103/141 
+  Verifying        : xz-devel-5.2.5-8.el9.x86_64                        104/141 
+  Verifying        : zlib-devel-1.2.11-39.el9.x86_64                    105/141 
+  Verifying        : binutils-2.35.2-42.el9.x86_64                      106/141 
+  Verifying        : binutils-2.35.2-37.el9.x86_64                      107/141 
+  Verifying        : glibc-2.34-83.el9.7.x86_64                         108/141 
+  Verifying        : glibc-2.34-60.el9.x86_64                           109/141 
+  Verifying        : glibc-all-langpacks-2.34-83.el9.7.x86_64           110/141 
+  Verifying        : glibc-all-langpacks-2.34-60.el9.x86_64             111/141 
+  Verifying        : glibc-common-2.34-83.el9.7.x86_64                  112/141 
+  Verifying        : glibc-common-2.34-60.el9.x86_64                    113/141 
+  Verifying        : glibc-gconv-extra-2.34-83.el9.7.x86_64             114/141 
+  Verifying        : glibc-gconv-extra-2.34-60.el9.x86_64               115/141 
+  Verifying        : glibc-langpack-en-2.34-83.el9.7.x86_64             116/141 
+  Verifying        : glibc-langpack-en-2.34-60.el9.x86_64               117/141 
+  Verifying        : libgcc-11.4.1-2.3.el9.x86_64                       118/141 
+  Verifying        : libgcc-11.3.1-4.3.el9.x86_64                       119/141 
+  Verifying        : libgomp-11.4.1-2.3.el9.x86_64                      120/141 
+  Verifying        : libgomp-11.3.1-4.3.el9.x86_64                      121/141 
+  Verifying        : libstdc++-11.4.1-2.3.el9.x86_64                    122/141 
+  Verifying        : libstdc++-11.3.1-4.3.el9.x86_64                    123/141 
+  Verifying        : python3-rpm-4.16.1.3-25.el9.x86_64                 124/141 
+  Verifying        : python3-rpm-4.16.1.3-22.el9.x86_64                 125/141 
+  Verifying        : rpm-4.16.1.3-25.el9.x86_64                         126/141 
+  Verifying        : rpm-4.16.1.3-22.el9.x86_64                         127/141 
+  Verifying        : rpm-build-libs-4.16.1.3-25.el9.x86_64              128/141 
+  Verifying        : rpm-build-libs-4.16.1.3-22.el9.x86_64              129/141 
+  Verifying        : rpm-libs-4.16.1.3-25.el9.x86_64                    130/141 
+  Verifying        : rpm-libs-4.16.1.3-22.el9.x86_64                    131/141 
+  Verifying        : rpm-plugin-audit-4.16.1.3-25.el9.x86_64            132/141 
+  Verifying        : rpm-plugin-audit-4.16.1.3-22.el9.x86_64            133/141 
+  Verifying        : rpm-plugin-selinux-4.16.1.3-25.el9.x86_64          134/141 
+  Verifying        : rpm-plugin-selinux-4.16.1.3-22.el9.x86_64          135/141 
+  Verifying        : rpm-sign-libs-4.16.1.3-25.el9.x86_64               136/141 
+  Verifying        : rpm-sign-libs-4.16.1.3-22.el9.x86_64               137/141 
+  Verifying        : cpp-11.4.1-2.3.el9.x86_64                          138/141 
+  Verifying        : cpp-11.3.1-4.3.el9.x86_64                          139/141 
+  Verifying        : rpm-plugin-systemd-inhibit-4.16.1.3-25.el9.x86_6   140/141 
+  Verifying        : rpm-plugin-systemd-inhibit-4.16.1.3-22.el9.x86_6   141/141 
+
+Upgraded:
+  binutils-2.35.2-42.el9.x86_64                                                 
+  cpp-11.4.1-2.3.el9.x86_64                                                     
+  glibc-2.34-83.el9.7.x86_64                                                    
+  glibc-all-langpacks-2.34-83.el9.7.x86_64                                      
+  glibc-common-2.34-83.el9.7.x86_64                                             
+  glibc-gconv-extra-2.34-83.el9.7.x86_64                                        
+  glibc-langpack-en-2.34-83.el9.7.x86_64                                        
+  libgcc-11.4.1-2.3.el9.x86_64                                                  
+  libgomp-11.4.1-2.3.el9.x86_64                                                 
+  libstdc++-11.4.1-2.3.el9.x86_64                                               
+  python3-rpm-4.16.1.3-25.el9.x86_64                                            
+  rpm-4.16.1.3-25.el9.x86_64                                                    
+  rpm-build-libs-4.16.1.3-25.el9.x86_64                                         
+  rpm-libs-4.16.1.3-25.el9.x86_64                                               
+  rpm-plugin-audit-4.16.1.3-25.el9.x86_64                                       
+  rpm-plugin-selinux-4.16.1.3-25.el9.x86_64                                     
+  rpm-plugin-systemd-inhibit-4.16.1.3-25.el9.x86_64                             
+  rpm-sign-libs-4.16.1.3-25.el9.x86_64                                          
+Installed:
+  adwaita-gtk2-theme-3.28-14.el9.x86_64                                         
+  annobin-12.09-1.el9.x86_64                                                    
+  asciidoc-9.1.0-3.el9.noarch                                                   
+  autoconf-2.69-38.el9.noarch                                                   
+  automake-1.16.2-8.el9.noarch                                                  
+  bison-3.7.4-5.el9.x86_64                                                      
+  boost-filesystem-1.75.0-8.el9.x86_64                                          
+  boost-regex-1.75.0-8.el9.x86_64                                               
+  boost-system-1.75.0-8.el9.x86_64                                              
+  boost-thread-1.75.0-8.el9.x86_64                                              
+  byacc-2.0.20210109-4.el9.x86_64                                               
+  copy-jdk-configs-4.0-3.el9.noarch                                             
+  debugedit-5.0-4.el9.x86_64                                                    
+  diffstat-1.64-6.el9.x86_64                                                    
+  docbook-dtds-1.0-79.el9.noarch                                                
+  docbook-style-xsl-1.79.2-16.el9.noarch                                        
+  dwz-0.14-3.el9.x86_64                                                         
+  dyninst-12.1.0-1.el9.x86_64                                                   
+  efi-srpm-macros-4-9.el9.noarch                                                
+  elfutils-0.188-3.el9.x86_64                                                   
+  elfutils-devel-0.188-3.el9.x86_64                                             
+  elfutils-libelf-devel-0.188-3.el9.x86_64                                      
+  flex-2.6.4-9.el9.x86_64                                                       
+  fonts-srpm-macros-1:2.0.5-7.el9.1.noarch                                      
+  gcc-11.4.1-2.3.el9.x86_64                                                     
+  gcc-c++-11.4.1-2.3.el9.x86_64                                                 
+  gcc-plugin-annobin-11.4.1-2.3.el9.x86_64                                      
+  gdb-10.2-11.el9.x86_64                                                        
+  gdb-headless-10.2-11.el9.x86_64                                               
+  gettext-common-devel-0.21-7.el9.noarch                                        
+  gettext-devel-0.21-7.el9.x86_64                                               
+  ghc-srpm-macros-1.5.0-6.el9.noarch                                            
+  git-2.39.3-1.el9.x86_64                                                       
+  git-core-2.39.3-1.el9.x86_64                                                  
+  git-core-doc-2.39.3-1.el9.noarch                                              
+  glibc-devel-2.34-83.el9.7.x86_64                                              
+  glibc-headers-2.34-83.el9.7.x86_64                                            
+  go-srpm-macros-3.2.0-3.el9.noarch                                             
+  graphviz-2.44.0-25.el9.x86_64                                                 
+  gtk2-2.24.33-8.el9.x86_64                                                     
+  ibus-gtk2-1.5.25-2.el9.x86_64                                                 
+  intltool-0.51.0-20.el9.noarch                                                 
+  java-1.8.0-openjdk-headless-1:1.8.0.362.b09-4.el9.x86_64                      
+  javapackages-filesystem-6.0.0-4.el9.noarch                                    
+  jna-5.6.0-8.el9.x86_64                                                        
+  kernel-headers-5.14.0-375.el9.x86_64                                          
+  kernel-srpm-macros-1.0-13.el9.noarch                                          
+  libXaw-1.0.13-19.el9.x86_64                                                   
+  libbabeltrace-1.5.8-10.el9.x86_64                                             
+  libcanberra-gtk2-0.30-26.el9.x86_64                                           
+  libipt-2.0.4-3.el9.x86_64                                                     
+  libstdc++-devel-11.4.1-2.3.el9.x86_64                                         
+  libtool-2.4.6-45.el9.x86_64                                                   
+  libxcrypt-devel-4.4.18-3.el9.x86_64                                           
+  libzstd-devel-1.5.1-2.el9.x86_64                                              
+  lksctp-tools-1.0.19-2.el9.x86_64                                              
+  ltrace-0.7.91-43.el9.x86_64                                                   
+  lua-5.4.4-3.el9.x86_64                                                        
+  lua-posix-35.0-8.el9.x86_64                                                   
+  lua-srpm-macros-1-6.el9.noarch                                                
+  m4-1.4.19-1.el9.x86_64                                                        
+  make-1:4.3-7.el9.x86_64                                                       
+  mkfontscale-1.2.1-3.el9.x86_64                                                
+  nss-tools-3.79.0-14.el9.x86_64                                                
+  ocaml-srpm-macros-6-6.el9.noarch                                              
+  openblas-srpm-macros-2-11.el9.noarch                                          
+  patch-2.7.6-16.el9.x86_64                                                     
+  patchutils-0.4.2-7.el9.x86_64                                                 
+  perl-Error-1:0.17029-7.el9.noarch                                             
+  perl-Fedora-VSP-0.001-23.el9.noarch                                           
+  perl-File-Compare-1.100.600-480.el9.noarch                                    
+  perl-File-Copy-2.34-480.el9.noarch                                            
+  perl-Git-2.39.3-1.el9.noarch                                                  
+  perl-TermReadKey-2.38-11.el9.x86_64                                           
+  perl-Thread-Queue-3.14-460.el9.noarch                                         
+  perl-XML-Parser-2.46-9.el9.x86_64                                             
+  perl-generators-1.11-12.el9.noarch                                            
+  perl-lib-0.65-480.el9.x86_64                                                  
+  perl-macros-4:5.32.1-480.el9.noarch                                           
+  perl-srpm-macros-1-41.el9.noarch                                              
+  perl-threads-1:2.25-460.el9.x86_64                                            
+  perl-threads-shared-1.61-460.el9.x86_64                                       
+  perl-version-7:0.99.28-4.el9.x86_64                                           
+  pesign-115-6.el9.x86_64                                                       
+  pyproject-srpm-macros-1.9.0-1.el9.noarch                                      
+  python-srpm-macros-3.9-52.el9.noarch                                          
+  qt5-srpm-macros-5.15.9-1.el9.noarch                                           
+  redhat-rpm-config-206-1.el9.noarch                                            
+  rpm-build-4.16.1.3-25.el9.x86_64                                              
+  rpm-sign-4.16.1.3-25.el9.x86_64                                               
+  rust-srpm-macros-17-4.el9.noarch                                              
+  sgml-common-0.6.3-58.el9.noarch                                               
+  source-highlight-3.1.9-11.el9.x86_64                                          
+  systemtap-4.9-3.el9.x86_64                                                    
+  systemtap-client-4.9-3.el9.x86_64                                             
+  systemtap-devel-4.9-3.el9.x86_64                                              
+  systemtap-runtime-4.9-3.el9.x86_64                                            
+  tbb-2020.3-8.el9.x86_64                                                       
+  tzdata-java-2023c-1.el9.noarch                                                
+  valgrind-1:3.21.0-7.el9.x86_64                                                
+  valgrind-devel-1:3.21.0-7.el9.x86_64                                          
+  xorg-x11-fonts-ISO8859-1-100dpi-7.5-33.el9.noarch                             
+  xz-devel-5.2.5-8.el9.x86_64                                                   
+  zlib-devel-1.2.11-39.el9.x86_64                                               
+  zstd-1.5.1-2.el9.x86_64                                                       
+
+Complete!

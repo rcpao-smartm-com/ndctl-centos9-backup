@@ -1,0 +1,140 @@
++ cd /home/rcpao/Downloads/
++ git clone https://github.com/pmem/ndctl
+fatal: destination path 'ndctl' already exists and is not an empty directory.
++ pushd ndctl
+~/Downloads/ndctl ~/Downloads
++ meson setup build
+Directory already configured.
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson setup --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
++ meson compile -C build
+ninja: Entering directory `/home/rcpao/Downloads/ndctl/build'
+[1/77] Generating version.h with a custom command
+[2/3] Generating rhel/ndctl.spec.in with a custom command
+[3/3] Generating sles/ndctl.spec.sles.in with a custom command
+INFO: autodetecting backend as ninja
+INFO: calculating backend command to run: /usr/bin/ninja -C /home/rcpao/Downloads/ndctl/build
++ sudo meson install -C build
+ninja: Entering directory `/home/rcpao/Downloads/ndctl/build'
+[1/77] Generating version.h with a custom command
+[2/3] Generating rhel/ndctl.spec.in with a custom command
+[3/3] Generating sles/ndctl.spec.sles.in with a custom command
+Installing daxctl/lib/libdaxctl.so.1.2.5 to /usr/lib
+Installing daxctl/lib/libdaxctl.pc to /usr/lib/pkgconfig
+Installing ndctl/lib/libndctl.so.6.2.21 to /usr/lib
+Installing ndctl/lib/libndctl.pc to /usr/lib/pkgconfig
+Installing cxl/lib/libcxl.so.1.0.5 to /usr/lib
+Installing cxl/lib/libcxl.pc to /usr/lib/pkgconfig
+Installing ndctl/ndctl to /usr/bin
+Installing daxctl/daxctl to /usr/bin
+Installing cxl/cxl to /usr/bin
+Installing Documentation/ndctl/ndctl.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-wait-scrub.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-start-scrub.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-zero-labels.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-read-labels.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-write-labels.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-init-labels.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-check-labels.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-enable-region.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-disable-region.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-enable-dimm.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-disable-dimm.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-enable-namespace.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-disable-namespace.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-create-namespace.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-destroy-namespace.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-check-namespace.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-clear-errors.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-inject-error.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-inject-smart.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-update-firmware.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-list.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-monitor.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-setup-passphrase.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-update-passphrase.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-remove-passphrase.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-freeze-security.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-sanitize-dimm.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-load-keys.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-wait-overwrite.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-read-infoblock.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-write-infoblock.1 to /usr/share/man/man1
+Installing Documentation/ndctl/ndctl-activate-firmware.1 to /usr/share/man/man1
+Installing Documentation/daxctl/daxctl.1 to /usr/share/man/man1
+Installing Documentation/daxctl/daxctl-list.1 to /usr/share/man/man1
+Installing Documentation/daxctl/daxctl-migrate-device-model.1 to /usr/share/man/man1
+Installing Documentation/daxctl/daxctl-reconfigure-device.1 to /usr/share/man/man1
+Installing Documentation/daxctl/daxctl-online-memory.1 to /usr/share/man/man1
+Installing Documentation/daxctl/daxctl-offline-memory.1 to /usr/share/man/man1
+Installing Documentation/daxctl/daxctl-disable-device.1 to /usr/share/man/man1
+Installing Documentation/daxctl/daxctl-enable-device.1 to /usr/share/man/man1
+Installing Documentation/daxctl/daxctl-create-device.1 to /usr/share/man/man1
+Installing Documentation/daxctl/daxctl-destroy-device.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-list.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-read-labels.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-write-labels.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-zero-labels.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-enable-memdev.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-disable-memdev.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-enable-port.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-disable-port.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-disable-bus.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-set-partition.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-reserve-dpa.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-free-dpa.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-create-region.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-disable-region.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-enable-region.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-destroy-region.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-monitor.1 to /usr/share/man/man1
+Installing Documentation/cxl/cxl-update-firmware.1 to /usr/share/man/man1
+Installing Documentation/cxl/lib/libcxl.3 to /usr/share/man/man3
+Installing Documentation/cxl/lib/cxl_new.3 to /usr/share/man/man3
+Installing /home/rcpao/Downloads/ndctl/ndctl/libndctl.h to /usr/include/ndctl
+Installing /home/rcpao/Downloads/ndctl/ndctl/ndctl.h to /usr/include/ndctl
+Installing /home/rcpao/Downloads/ndctl/daxctl/libdaxctl.h to /usr/include/daxctl
+Installing /home/rcpao/Downloads/ndctl/cxl/libcxl.h to /usr/include/cxl
+Installing /home/rcpao/Downloads/ndctl/daxctl/lib/daxctl.conf to /usr/share/daxctl
+Installing /home/rcpao/Downloads/ndctl/ndctl/ndctl-monitor.service to /usr/lib/systemd/system
+Installing /home/rcpao/Downloads/ndctl/ndctl/monitor.conf to /etc/ndctl.conf.d
+Installing /home/rcpao/Downloads/ndctl/ndctl/ndctl.conf to /etc/ndctl.conf.d
+Installing /home/rcpao/Downloads/ndctl/ndctl/keys.readme to /etc/ndctl/keys
+Installing /home/rcpao/Downloads/ndctl/daxctl/daxctl.example.conf to /etc/daxctl.conf.d
+Installing /home/rcpao/Downloads/ndctl/daxctl/90-daxctl-device.rules to /usr/lib/udev/rules.d
+Installing /home/rcpao/Downloads/ndctl/daxctl/daxdev-reconfigure@.service to /usr/lib/systemd/system
+Installing /home/rcpao/Downloads/ndctl/cxl/cxl-monitor.service to /usr/lib/systemd/system
+Installing /home/rcpao/Downloads/ndctl/contrib/ndctl to /usr/share/bash-completion/completions
+Installing /home/rcpao/Downloads/ndctl/contrib/ndctl to /usr/share/bash-completion/completions
+Installing /home/rcpao/Downloads/ndctl/contrib/ndctl to /usr/share/bash-completion/completions
+Installing /home/rcpao/Downloads/ndctl/contrib/nvdimm-security.conf to /etc/modprobe.d
+Installing symlink pointing to libdaxctl.so.1.2.5 to /usr/lib/libdaxctl.so.1
+Installing symlink pointing to libdaxctl.so.1 to /usr/lib/libdaxctl.so
+Installing symlink pointing to libndctl.so.6.2.21 to /usr/lib/libndctl.so.6
+Installing symlink pointing to libndctl.so.6 to /usr/lib/libndctl.so
+Installing symlink pointing to libcxl.so.1.0.5 to /usr/lib/libcxl.so.1
+Installing symlink pointing to libcxl.so.1 to /usr/lib/libcxl.so
++ popd
+~/Downloads
++ sudo ldconfig
++ which ndctl daxctl cxl
++ /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot ndctl daxctl cxl
++ alias
++ eval declare -f
+++ declare -f
+/usr/bin/ndctl
+/usr/bin/daxctl
+/usr/bin/cxl
++ ndctl --version
+78
++ daxctl --version
+78
++ cxl --version
+78
